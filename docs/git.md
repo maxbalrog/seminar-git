@@ -76,6 +76,12 @@ Create a branch and switch to it:
 git switch -c <branch_name>
 ```
 
+Merge `branch_name` into the current branch:
+
+```bash
+git merge <branch_name>
+```
+
 ### Staging area
 
 Check status of the repository:
@@ -134,6 +140,12 @@ Commit a change:
 
 ```bash
 git commit -m "this is my commit message"
+```
+
+Add the staged changes to the last commit. This can be used for fixing typos in the commit message.
+
+```bash
+git commit --amend
 ```
 
 ### Remote repository
