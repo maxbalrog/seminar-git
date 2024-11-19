@@ -7,5 +7,5 @@
 
 ## Typical collaboration problems
 
-1. How to work together on a single programming project?
-2. How to make your code and results available and useful for other researchers?
+1. A colleague modified the code, it's not working anumore.
+2. Found a very useful package. Cannot understand what happens there, how to install and modify it. Error after error.
