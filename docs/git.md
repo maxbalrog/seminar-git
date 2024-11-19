@@ -130,6 +130,41 @@ git ls-tree -r <branch_name> --name-only
 
 ### Commits
 
+Commit a change:
+
+```bash
+git commit -m "this is my commit message"
+```
+
+### Remote repository
+
+Push changes to remote repo `origin`:
+
+```bash
+git push origin <branch_name>
+```
+
+Pull changes from remote repo:
+
+```bash
+git pull origin <branch_name>
+```
+
+### Git info
+
+Check git log:
+
+```bash
+git log
+```
+
+Check remote names with url:
+
+```bash
+git remote -v
+```
+
+
 Resources:
 
 1. [Adding locally hosted code to github](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github).
