@@ -76,6 +76,12 @@ Create a branch and switch to it:
 git switch -c <branch_name>
 ```
 
+Merge `branch_name` into the current branch:
+
+```bash
+git merge <branch_name>
+```
+
 ### Staging area
 
 Check status of the repository:
@@ -136,6 +142,12 @@ Commit a change:
 git commit -m "this is my commit message"
 ```
 
+Add the staged changes to the last commit. This can be used for fixing typos in the commit message.
+
+```bash
+git commit --amend
+```
+
 ### Remote repository
 
 Push changes to remote repo `origin`:
@@ -164,6 +176,31 @@ Check remote names with url:
 git remote -v
 ```
 
+### Tags
+
+List existing tags:
+
+```bash
+git tag
+```
+
+Create an annotated tag:
+
+```bash
+git tag -a <tag_name> -m "my message"
+```
+
+Show tag data:
+
+```bash
+git show <tag_name>
+```
+
+Push a tag to the remote server (all tags):
+
+```bash
+git push origin <tag_name> (--tags)
+```
 
 Resources:
 
