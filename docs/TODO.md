@@ -2,9 +2,9 @@
 
 1. Create repository on GitHub and clone it locally.
 
-2. Create a feature branch, add a file, commit, push to origin. Observe your commit in GitHub commits and study commit graph in Insights/Network.
+2. Create a feature branch, add a file, commit, look at the staging area, push to origin. Observe your commit in GitHub commits and study commit graph in Insights/Network.
 
-3. Make another commit, create a pull request and merge it into main.
+3. Make another commit, create a pull request and merge it into main. Create a tag for current version.
 
 4. Discuss .gitignore.
 

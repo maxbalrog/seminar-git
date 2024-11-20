@@ -176,6 +176,31 @@ Check remote names with url:
 git remote -v
 ```
 
+### Tags
+
+List existing tags:
+
+```bash
+git tag
+```
+
+Create an annotated tag:
+
+```bash
+git tag -a <tag_name> -m "my message"
+```
+
+Show tag data:
+
+```bash
+git show <tag_name>
+```
+
+Push a tag to the remote server (all tags):
+
+```bash
+git push origin <tag_name> (--tags)
+```
 
 Resources:
 
