@@ -9,5 +9,5 @@
 
 ## Collaboration
 
-1. A colleague modified the code, it's not working anumore.
+1. A colleague modified the code, it's not working anymore.
 2. Found a very useful package. Cannot understand what happens there, how to install and modify it. Error after error.
